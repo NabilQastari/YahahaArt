@@ -335,7 +335,7 @@ button {
   line-height: inherit;
   vertical-align: middle;
 }
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 500px) {
   input,
   select,
   textarea {
@@ -417,7 +417,8 @@ img::-moz-selection {
   padding-top: 100%;
 }
 .square > .aspect-ratio__content {
-  border-radius: 5px;
+  min-width: 10rem;
+  border-radius: 2px;
   position: absolute;
   top: 0;
   left: 0;
@@ -554,7 +555,7 @@ fieldset[disabled] a.btn {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
+  max-width: 60rem;
   padding-left: 0.8rem;
   padding-right: 0.8rem;
   width: 100%;
@@ -1724,4 +1725,13 @@ header1 {
   height: 5rem; /* Adjust the height as needed */
   display: block;
   margin: 0 auto;
+}
+
+.square {
+  margin: 7px;
+  box-shadow: -7px 0 0 0 black,7px 0 0 0 black,0 -7px 0 0 black,0 7px 0 0 black;
+}
+
+.rectangle{
+  box-shadow: -7px 0 0 0 black,7px 0 0 0 black,0 -7px 0 0 black,0 7px 0 0 black;
 }
