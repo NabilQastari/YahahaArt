@@ -94,3 +94,14 @@ const canvas = document.getElementById("particles");
 //         }
 //     });
 // });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // You can add more JavaScript code here if needed
+});
+
+function scrollToMainContent() {
+  const mainContent = document.getElementById('main-content');
+
+  // Use smooth scrolling behavior
+  mainContent.scrollIntoView({ behavior: 'smooth' });
+}
